@@ -397,7 +397,7 @@ body{
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    transition: var(--transition_shadow), var(--transition_back), var(--transition_clr);
+    transition: var(--transition_shadow), var(--transition_back), var(--transition_clr), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn_item:hover, .btn_item:focus{
     background-color: #404BBF;
