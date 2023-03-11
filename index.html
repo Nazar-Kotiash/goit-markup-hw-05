@@ -39,7 +39,7 @@
         <section class="caption">
             <div class="container">
                 <h1 class="caption_slogan">Effective Solutions for Your Business</h1>
-                <button type="button" class="caption_btn">Order Service</button>
+                <button type="button" class="caption_btn" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="hero">
@@ -374,6 +374,16 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+       <div class="modal">
+          <button type="button" class="close_btn" data-modal-close>
+            <svg class="close_btn_svg" width="8px" height="8px">
+                <use href="./images_1/symbol.svg#icon-close-black"></use>
+            </svg>
+          </button>              
+       </div> 
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
